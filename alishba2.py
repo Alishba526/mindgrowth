@@ -3,7 +3,7 @@ import streamlit as st
 
 
 st.set_page_config(page_title="Data sweeper🌟 ", page_icon="🧊", layout="wide")
-st.title("Data Sweeper")
+st.title("🥀 Data Sweeper 🥀")
 # quote
 st.header("Data Sweeper is a tool  that helps you to clean your data and make it ready for analysis.")
 st.write("Upload your data and get it cleaned in seconds.")
