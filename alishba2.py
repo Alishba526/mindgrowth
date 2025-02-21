@@ -2,7 +2,7 @@ import streamlit as st
  
 
 
-st.set_page_config(page_title="Data sweeper ", page_icon="🧊", layout="wide")
+st.set_page_config(page_title="Data sweeper🌟 ", page_icon="🧊", layout="wide")
 st.title("Data Sweeper")
 # quote
 st.header("Data Sweeper is a tool  that helps you to clean your data and make it ready for analysis.")
@@ -27,14 +27,14 @@ reflection = st.text_area("Enter your reflection here")
 if reflection:
     st.success(f"Your reflection has been saved as: {reflection}")
 else:
-    st.info("Please enter your reflection")
+    st.info("Please enter your reflection ✅")
 
 # achievement
-st.header("celebrate your achievement")
+st.header("celebrate your achievement🏆")
 achievement = st.text_input("Enter your achievement here")
 
 if achievement:
-    st.success(f"Your achievement has been saved as: {achievement}")
+    st.success(f"Your achievement has been saved as: {achievement} ❤️")
 else:
     st.info("Please enter your achievement")
 
